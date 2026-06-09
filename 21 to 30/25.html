@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Write a program to compare two expressions and print which one has higher precedence.
+      let expr1 = 10 + 5 * 2;     // Multiplication has higher precedence
+let expr2 = (10 + 5) * 2;   // Parentheses have highest precedence
+
+console.log("Expression 1:", expr1);
+console.log("Expression 2:", expr2);
+
+if (expr1 > expr2) {
+    console.log("Expression 1 gives the higher result.");
+} else if (expr2 > expr1) {
+    console.log("Expression 2 gives the higher result.");
+} else {
+    console.log("Both expressions give the same result.");
+}
+    </script>
+  </body>
+</html>
+
+  

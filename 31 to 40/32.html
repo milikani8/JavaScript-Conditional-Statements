@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Use nested if–else to determine if a number is perfect square or not (without Math functions).
+      let num = prompt("Enter a number:");
+      let n = Number(num);
+
+      if (n < 0) {
+        console.log(n + " is not a perfect square.");
+      } else {
+        let sqrt = 0;
+        let i = 1;
+
+        while (sqrt < n) {
+          sqrt = i * i;
+          i++;
+        }
+
+        if (sqrt === n) {
+          console.log(n + " is a perfect square.");
+        } else {
+          console.log(n + " is not a perfect square.");
+        }
+      }
+    </script>
+  </body>
+</html>
+
+
+
+  
+
+      
+  

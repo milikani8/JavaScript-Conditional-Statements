@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Write a program using if–else ladder to determine salary hike percentage based on performance rating (1–5).
+
+      let rating = prompt("Enter your performance rating (1–5):");
+      let hike = 0;
+
+      if (rating === "5") {
+        hike = 20;
+      } else if (rating === "4") {
+        hike = 15;
+      } else if (rating === "3") {
+        hike = 10;
+      } else if (rating === "2") {
+        hike = 5;
+      } else if (rating === "1") {
+        hike = 0;
+      } else {
+        console.log("Invalid rating. Please enter a number between 1 and 5.");
+      }
+
+      console.log("Your salary hike percentage is: " + hike + "%");
+    </script>
+  </body>
+</html>
+
+        
+      
+        

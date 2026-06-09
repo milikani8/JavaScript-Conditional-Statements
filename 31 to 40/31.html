@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Write a program using if–else ladder to simulate a simple calculator (only +, -, *, /, %).
+      let num1 = prompt("Enter the first number:");
+      let n1 = Number(num1);
+      let num2 = prompt("Enter the second number:");
+      let n2 = Number(num2);
+      let operator = prompt("Enter the operator (+, -, *, /, %):");
+
+      if (operator === "+") {
+        console.log(n1 + " + " + n2 + " = " + (n1 + n2));
+      } else if (operator === "-") {
+        console.log(n1 + " - " + n2 + " = " + (n1 - n2));
+      } else if (operator === "*") {
+        console.log(n1 + " * " + n2 + " = " + n1 * n2);
+      } else if (operator === "/") {
+        console.log(n1 + " / " + n2 + " = " + n1 / n2);
+      } else if (operator === "%") {
+        console.log(n1 + " % " + n2 + " = " + (n1 % n2));
+      } else {
+        console.log("Invalid operator");
+      }
+    </script>
+  </body>
+</html>

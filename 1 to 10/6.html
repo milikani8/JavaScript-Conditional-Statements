@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Use && and || to check if a number lies between 10 and 50.
+      //In this case && is usually used to check if a number lies between two numbers. It checks if both conditions are true.
+      let num = prompt("enter a number");
+      let n = Number(num);
+
+      if (n > 10 && n < 50) {
+        console.log("number lies between 10 and 50");
+      } else {
+        console.log("number does not lie between 10 and 50");
+      }
+
+      // Check if the number is out of bounds
+      if (n <= 10 || n >= 50) {
+        console.log("The number is NOT between 10 and 50.");
+      } else {
+      console.log("The number is between 10 and 50.");
+      }
+
+    </script>
+  </body>
+</html>
+
+   

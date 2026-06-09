@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Write a program to check if a character is a vowel or consonant using if–else ladder.
+      let char = prompt("enter a character:");
+
+      if (
+        char === "a" ||
+        char === "e" ||
+        char === "i" ||
+        char === "o" ||
+        char === "u" ||
+        char === "A" ||
+        char === "E" ||
+        char === "I" ||
+        char === "O" ||
+        char === "U"
+      ) {
+        console.log(char + " is a vowel");
+      } else if ((char >= "a" && char <= "z") || (char >= "A" && char <= "Z")) {
+        console.log(char + " is a consonant");
+      } else {
+        console.log("Please enter a valid alphabet.");
+      }
+    </script>
+  </body>
+</html>
